@@ -1,0 +1,110 @@
+body{
+
+    background-color: rgb(120, 184, 234);
+}
+
+#title{
+   background-color: rgb(120, 184, 234);  
+  width: 50%; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner{
+    border: solid rgb(91, 145, 233); 
+    width: 100%;
+    height: 300px;
+    position: relative; 
+   
+
+}
+
+#coral_banner{
+    width: 100%;
+    height: 100%;
+    object-fit: partial;
+    
+}
+
+#links{
+    width: 40%;
+    font-size: 20px;
+    margin-right: auto;
+    text-align: left;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#links a{
+    text-decoration:solid;
+
+}
+
+#profile img{
+    width: 100%;
+    height: 100%;
+
+}
+
+#profile{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:70%;
+    left: 10%;
+}
+
+#mission{
+    width: 90%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    padding-left: 50px;
+    margin-top: 200px;
+    text-align: left;
+}
+
+#button img{
+    width: 100%;
+    height: 100%;
+}
+
+#button{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+#demoImg img{
+    width: 100%;
+  }
+
+#demoImg{
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+
+  }
+
+#p5container canvas{
+    border: solid rgb(255, 255, 255);
+    display: block;
+    margin:auto
+}
+
+#p5container{
+    display: inline-block;
+}
+
+#display{
+    margin-top: 150px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
