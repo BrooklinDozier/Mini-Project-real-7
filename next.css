@@ -47,12 +47,7 @@ body{
     text-align: left;
 }
 
-#ocean {
-    max-width: 90%; /* Adjust the maximum width as needed */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    margin: auto;
-}
+
 
 
 
