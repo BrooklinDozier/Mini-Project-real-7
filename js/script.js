@@ -168,9 +168,7 @@ class Bubble {
     this.x = bubx;
     this.y = buby;
     this.size = random(10, 2);
-    this.r = (255);
-    this.g = (255);
-    this.b = (255);
+   
   }
 
    move() {
