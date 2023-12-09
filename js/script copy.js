@@ -126,7 +126,7 @@ class Fish {
 
   move() {
     this.x += 1.3;
-    this.y += random(-0.5, 0.5);
+    
     if (this.x > width + this.j * 1.2) {
       this.x = -this.j * 1.2;
       this.y = random(100, height);
@@ -150,7 +150,7 @@ class Fishh {
 
   move() {
     this.x += -1.3;
-    this.y += random(-0.5, 0.5);
+    
 
     if (this.x < -this.j * 1.2) {
       this.x = width + this.j * 1.2;
