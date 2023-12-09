@@ -31,7 +31,7 @@ function setup() {
   
   let canvas= createCanvas(400, 500);
 canvas.parent("p5container")
-  background('#78BDF1');
+background(120,189,242);
 
   createInterface();
 
@@ -73,7 +73,7 @@ function createInterface() {
 }
 
 function draw() {
-  background('#ABD0EB');
+  background(171,208,235);
   sea();
   hill();
   sand();
@@ -186,7 +186,7 @@ class Bubble {
   }
   
   show() {
-    stroke('#DFE2E5');
+    stroke(210,221,233);
     strokeWeight(1.5);
     noFill();
     ellipse(this.x, this.y, this.size, this.size);
@@ -195,7 +195,7 @@ class Bubble {
 }
 
 function sea() {
-  fill('#438DC9');
+  fill(46,140,219);
   noStroke();
   beginShape();
   let xoff = 0;
@@ -216,17 +216,17 @@ function fishbackk() {
 }
 
 function hill() {
-  fill('#454C6A47');
+  fill(69,76,106);
   ellipse(400, height - 50, 400, 280);
 
-  fill('#454C6A72');
+  fill(69,76,106);
   ellipse(10, height - 50, 300, 280);
-  fill('#454C6AF4')
+  fill(69,76,106);
   ellipse(300, height - 50, 280, 150);
 }
 
 function sand() {
-  fill('#A0910E');
+  fill(160,145,60);
   noStroke();
   square(0, 400, 500, 5, 5);
 
