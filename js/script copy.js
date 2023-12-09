@@ -187,10 +187,10 @@ class Bubble {
   
   show() {
     stroke('#DFE2E5');
-    strokeWeight(1);
+    strokeWeight(1.5);
     noFill();
     ellipse(this.x, this.y, this.size, this.size);
-    ellipse(this.x + 13, this.y + 10, this.size * 1.2, this.size);
+    
   }
 }
 

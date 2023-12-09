@@ -190,7 +190,7 @@ class Bubble {
     strokeWeight(1);
     noFill();
     ellipse(this.x, this.y, this.size, this.size);
-    ellipse(this.x + 13, this.y + 10, this.size * 1.2, this.size);
+    
   }
 }
 
